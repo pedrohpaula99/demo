@@ -1,0 +1,19 @@
+openapi: 3.0.3
+info:
+  title: demo
+  version: 1.0.0
+
+  paths:
+    /teste:
+      tags:
+        - Teste
+      summary: Teste
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        200:
+          description: Success

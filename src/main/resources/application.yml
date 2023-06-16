@@ -1,4 +1,9 @@
 micronaut:
+  endpoints:
+    swagger:
+      enabled: true
+      paths:
+        - classpath:swagger.yaml
   application:
     name: demo
 netty:
